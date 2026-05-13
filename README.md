@@ -1,6 +1,6 @@
 <!-- 作用：项目总说明，帮助用户和开发者快速理解本 skill 的目标、能力边界和使用方式。 -->
 
-# Journal Narrative Polisher
+# Journal Narrative Polisher：StoryTeller.Skil
 
 A journal-oriented academic manuscript polishing skill.
 
