@@ -2,7 +2,9 @@
 
 # Journal Narrative Polisher: StoryTeller.Skil
 
-“你得讲一个故事 You should tell a good story”    ————我的导师 My PI
+## “你得讲一个故事 You should tell a good story”    
+
+## ——————我的导师 My PI
 
 A journal-oriented academic manuscript polishing skill.
 
