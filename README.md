@@ -75,4 +75,4 @@ A journal-oriented academic manuscript polishing skill.
 - 准备 Cover Letter
 - 识别审稿风险
 
-### This repository was built using GPT-5.5 assistance.
+This repository was built using GPT-5.5 assistance.
