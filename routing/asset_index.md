@@ -1,366 +1,183 @@
 <!-- 作用：定义用户命令、任务意图与应加载文件之间的映射关系。 -->
 
+# Asset Index
 
-
-\# Asset Index
-
-
-
-\## Core Files
-
-
+## Core Files
 
 Always load:
 
-
-
-\- `instruction.md`
-
-\- `skill.md`
-
-
+- `instruction.md`
+- `skill.md`
 
 Usually load:
 
+- `routing/asset_index.md`
 
+## Command-to-Asset Mapping
 
-\- `routing/asset\_index.md`
-
-
-
-\## Command-to-Asset Mapping
-
-
-
-\### `/diagnose`
-
-
+### `/diagnose`
 
 Purpose:
 
-
-
-\- Diagnose journal fit and manuscript narrative problems.
-
-
+- Diagnose journal fit and manuscript narrative problems.
 
 Load:
 
-
-
-\- `templates/journal\_profile\_template.md`
-
-\- `templates/manuscript\_diagnosis\_template.md`
-
-\- `checklists/claim\_calibration\_checklist.md`
-
-
+- `templates/journal_profile_template.md`
+- `templates/manuscript_diagnosis_template.md`
+- `checklists/claim_calibration_checklist.md`
 
 Optional:
 
+- `checklists/reviewer_risk_checklist.md`
 
+---
 
-\- `checklists/reviewer\_risk\_checklist.md`
-
-
-
-\---
-
-
-
-\### `/analyze\_journal`
-
-
+### `/analyze_journal`
 
 Purpose:
 
-
-
-\- Analyze journal aims/scope and public orientation.
-
-
+- Analyze journal aims/scope and public orientation.
 
 Load:
 
+- `templates/journal_profile_template.md`
 
+---
 
-\- `templates/journal\_profile\_template.md`
-
-
-
-\---
-
-
-
-\### `/analyze\_references`
-
-
+### `/analyze_references`
 
 Purpose:
 
-
-
-\- Analyze rhetorical patterns of reference papers.
-
-
+- Analyze rhetorical patterns of reference papers.
 
 Load:
 
+- `templates/reference_analysis_template.md`
 
+---
 
-\- `templates/reference\_analysis\_template.md`
-
-
-
-\---
-
-
-
-\### `/propose\_story`
-
-
+### `/propose_story`
 
 Purpose:
 
-
-
-\- Generate multiple narrative strategies.
-
-
+- Generate multiple narrative strategies.
 
 Load:
 
+- `templates/narrative_strategy_template.md`
+- `checklists/claim_calibration_checklist.md`
 
+---
 
-\- `templates/narrative\_strategy\_template.md`
-
-\- `checklists/claim\_calibration\_checklist.md`
-
-
-
-\---
-
-
-
-\### `/polish\_intro`
-
-
+### `/polish_intro`
 
 Purpose:
 
-
-
-\- Polish or reconstruct Introduction.
-
-
+- Polish or reconstruct Introduction.
 
 Load:
 
-
-
-\- `templates/intro\_rewrite\_template.md`
-
-\- `checklists/intro\_quality\_checklist.md`
-
-\- `checklists/claim\_calibration\_checklist.md`
-
-
+- `templates/intro_rewrite_template.md`
+- `checklists/intro_quality_checklist.md`
+- `checklists/claim_calibration_checklist.md`
 
 Optional:
 
+- `templates/journal_profile_template.md`
+- `templates/reference_analysis_template.md`
 
+---
 
-\- `templates/journal\_profile\_template.md`
-
-\- `templates/reference\_analysis\_template.md`
-
-
-
-\---
-
-
-
-\### `/polish\_discussion`
-
-
+### `/polish_discussion`
 
 Purpose:
 
-
-
-\- Polish or reconstruct Discussion.
-
-
+- Polish or reconstruct Discussion.
 
 Load:
 
-
-
-\- `templates/discussion\_rewrite\_template.md`
-
-\- `checklists/discussion\_quality\_checklist.md`
-
-\- `checklists/claim\_calibration\_checklist.md`
-
-
+- `templates/discussion_rewrite_template.md`
+- `checklists/discussion_quality_checklist.md`
+- `checklists/claim_calibration_checklist.md`
 
 Optional:
 
+- `checklists/reviewer_risk_checklist.md`
 
+---
 
-\- `checklists/reviewer\_risk\_checklist.md`
-
-
-
-\---
-
-
-
-\### `/full\_restructure`
-
-
+### `/full_restructure`
 
 Purpose:
 
-
-
-\- Reconstruct Title, Abstract, Introduction, Discussion, and overall narrative.
-
-
+- Reconstruct Title, Abstract, Introduction, Discussion, and overall narrative.
 
 Phase 1 Load:
 
-
-
-\- `templates/journal\_profile\_template.md`
-
-\- `templates/reference\_analysis\_template.md`
-
-\- `templates/manuscript\_diagnosis\_template.md`
-
-\- `templates/narrative\_strategy\_template.md`
-
-\- `checklists/claim\_calibration\_checklist.md`
-
-
+- `templates/journal_profile_template.md`
+- `templates/reference_analysis_template.md`
+- `templates/manuscript_diagnosis_template.md`
+- `templates/narrative_strategy_template.md`
+- `checklists/claim_calibration_checklist.md`
 
 Phase 2 Load after user confirmation:
 
-
-
-\- `templates/intro\_rewrite\_template.md`
-
-\- `templates/discussion\_rewrite\_template.md`
-
-\- `checklists/intro\_quality\_checklist.md`
-
-\- `checklists/discussion\_quality\_checklist.md`
-
-
+- `templates/intro_rewrite_template.md`
+- `templates/discussion_rewrite_template.md`
+- `checklists/intro_quality_checklist.md`
+- `checklists/discussion_quality_checklist.md`
 
 Optional:
 
+- `templates/cover_letter_template.md`
+- `checklists/reviewer_risk_checklist.md`
 
+---
 
-\- `templates/cover\_letter\_template.md`
-
-\- `checklists/reviewer\_risk\_checklist.md`
-
-
-
-\---
-
-
-
-\### `/cover\_letter`
-
-
+### `/cover_letter`
 
 Purpose:
 
-
-
-\- Generate a target-journal-aligned cover letter.
-
-
+- Generate a target-journal-aligned cover letter.
 
 Load:
 
-
-
-\- `templates/cover\_letter\_template.md`
-
-\- `templates/journal\_profile\_template.md`
-
-
+- `templates/cover_letter_template.md`
+- `templates/journal_profile_template.md`
 
 Optional:
 
+- `templates/narrative_strategy_template.md`
 
+---
 
-\- `templates/narrative\_strategy\_template.md`
-
-
-
-\---
-
-
-
-\### `/reviewer\_risk`
-
-
+### `/reviewer_risk`
 
 Purpose:
 
-
-
-\- Identify likely reviewer concerns.
-
-
+- Identify likely reviewer concerns.
 
 Load:
 
-
-
-\- `checklists/reviewer\_risk\_checklist.md`
-
-\- `checklists/claim\_calibration\_checklist.md`
-
-
+- `checklists/reviewer_risk_checklist.md`
+- `checklists/claim_calibration_checklist.md`
 
 Optional:
 
+- `templates/manuscript_diagnosis_template.md`
 
-
-\- `templates/manuscript\_diagnosis\_template.md`
-
-
-
-\## Intent-based Loading Without Command
-
-
+## Intent-based Loading Without Command
 
 If the user does not use a command, infer intent:
 
-
-
-\- Mentions “Introduction” or “引言” → `/polish\_intro`
-
-\- Mentions “Discussion” or “讨论” → `/polish\_discussion`
-
-\- Mentions “cover letter” or “投稿信” → `/cover\_letter`
-
-\- Mentions “审稿人”, “reviewer”, “风险” → `/reviewer\_risk`
-
-\- Mentions “故事线”, “叙事”, “narrative” → `/propose\_story`
-
-\- Mentions “期刊匹配”, “journal fit” → `/diagnose`
-
-\- Provides only journal information → `/analyze\_journal`
-
-\- Provides reference papers → `/analyze\_references`
-
-
+- Mentions “Introduction” or “引言” → `/polish_intro`
+- Mentions “Discussion” or “讨论” → `/polish_discussion`
+- Mentions “cover letter” or “投稿信” → `/cover_letter`
+- Mentions “审稿人”, “reviewer”, “风险” → `/reviewer_risk`
+- Mentions “故事线”, “叙事”, “narrative” → `/propose_story`
+- Mentions “期刊匹配”, “journal fit” → `/diagnose`
+- Provides only journal information → `/analyze_journal`
+- Provides reference papers → `/analyze_references`
 
 If uncertain, ask the user to choose a mode.
-
