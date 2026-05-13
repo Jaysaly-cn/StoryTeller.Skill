@@ -76,7 +76,6 @@ A journal-oriented academic manuscript polishing skill.
 - 识别审稿风险
 
 # USAGE：
-# 论文润色 Skill 分享：Journal Narrative Polisher
 
 ## 1. 它能做什么？
 
